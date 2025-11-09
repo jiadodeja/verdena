@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "Verdena",
+  "version": "0.1.0",
+  "description": "Check the sustainability credentials of any brand while you browse",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "host_permissions": ["https://*/", "http://*/"],
+  "action": {
+    "default_title": "Verdena - Check Sustainability",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["content.js"],
+    "css": ["panel.css"],
+    "run_at": "document_idle"
+  }],
+  "web_accessible_resources": [{
+    "resources": ["panel.html", "panel.js", "panel.css"],
+    "matches": ["<all_urls>"]
+  }],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}

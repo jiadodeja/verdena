@@ -1,0 +1,6 @@
+py -3.13 -m venv venv
+venv\Scripts\activate.bat
+pip install -r requirements.txt
+pip install dedalus-labs
+pip install dotenv
+run-server.bat
