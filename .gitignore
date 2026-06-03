@@ -39,7 +39,7 @@ extension/*.pem
 *.cache
 .parcel-cache/
 
-# API Keys (important!)
+# API Keys
 *api_key*
 *API_KEY*
 anthropic_key.txt
