@@ -1,12 +1,12 @@
 # Verdena
 
-A Chrome extension that tells you how sustainable a brand actually is while you browse. Click the button on any website and get a scored sustainability report card — covering environmental impact, labor practices, and transparency — powered by AI.
+A Chrome extension that tells you how sustainable a brand actually is while you browse. Click the button on any website and get a scored sustainability report card, covering environmental impact, labor practices, and transparency. 
 
 ## What it does
 
 Most people have no idea whether the brands they buy from are actually sustainable or just good at marketing. Verdena tries to fix that. It sits in your browser and when you're on any brand's website, one click gives you a breakdown of how they score across three categories with a 0-100 overall score.
 
-It also flags greenwashing — when a brand's claims don't match their actual practices.
+It also flags greenwashing (when a brand's claims don't match their actual practices).
 
 ## How it works
 
@@ -24,9 +24,9 @@ It also flags greenwashing — when a brand's claims don't match their actual pr
 
 **Scoring**
 The overall score is calculated across three categories:
-- Environmental (50%) — carbon targets, renewable energy, waste reduction
-- Social (30%) — fair labor, supplier audits, diversity
-- Transparency (20%) — third-party audits, open data, greenwashing signals
+- Environmental (50%): carbon targets, renewable energy, waste reduction
+- Social (30%): fair labor, supplier audits, diversity
+- Transparency (20%): third-party audits, open data, greenwashing signals
 
 ## Stack
 
